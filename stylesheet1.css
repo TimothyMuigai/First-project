@@ -1,0 +1,86 @@
+.headings{
+    background-color: rgba(45, 238, 148, 0.973);
+    margin: 20px 20px 7px 20px;
+    border-radius: 8px;
+    padding: 7px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    border: solid;
+}
+h3{
+    margin-top: 0px;
+}
+#heading1{
+    margin-bottom: 0;
+}
+
+.container{
+    
+    position: relative;
+    height: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;    
+}
+
+button{
+    background-color: #f1f1f1;
+    width: 250px;
+    height: 35px;
+    margin: 3px;
+    text-align: left;    
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #f1f1f1;
+    border-style: solid;
+}
+ul button:hover{
+    background-color: rgb(198, 199, 199);
+}
+a{
+    color: black;    
+}
+section a:hover{
+    text-decoration: none;
+}
+
+section{
+    position: absolute;  
+    width: 800px;
+    top: 8px;
+    right: 16px;
+    padding: 30px;
+    display: inline-block;
+    
+}
+.sidebar, .container p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.sidebar{
+    border: 1px ;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: rgb(31, 167, 205);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    
+}
+.sidebar2{
+    margin-top: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+
